@@ -1,7 +1,13 @@
-/* Font Style  */
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    Font Style
+:::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-/* Common Styles */
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    Common Styles
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
 * {
     margin: 0px;
 }
@@ -10,7 +16,9 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-/* Primary Button Style  */
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ Primary Button Style 
+ :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
 .primary-button {
     width: 180px;
@@ -25,7 +33,9 @@ body {
     color: #FFFFFF;
 }
 
-/* Navigation Styles */
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    Navigation Styles
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
 header {
     width: 100%;
@@ -62,7 +72,9 @@ header {
     color: #424242;
 }
 
-/* Banner Section Styles */
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Banner Section Styles
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 .banner {
     display: flex;
     flex-direction: column;
@@ -99,9 +111,15 @@ header {
     padding-bottom: 40px;
 }
 
-/* Main Section Styles  */
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    Main Section Styles
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
-/* Quick feature styles */
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Quick feature styles
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
 .quick-feature {
     display: flex;
     align-items: center;
@@ -149,7 +167,9 @@ header {
     padding: 25px 0px;
 }
 
-/* Features you will love & enjoy section Styles */
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    Features you will love & enjoy section Styles
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
 .features-love {
     width: 1245px;
@@ -189,6 +209,7 @@ header {
     font-size: 16px;
     color: #727272;
     padding-top: 20px;
+    text-align: justify;
 }
 
 .blogs {
@@ -228,9 +249,11 @@ header {
     position: relative;
 }
 
-/* 10+ Years Button Styles */
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    10+ Years Button Styles
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
-.exprience-button {
+.experience-button {
     width: 342px;
     height: 200px;
     background-color: #FF900E;
@@ -253,7 +276,9 @@ header {
     font-size: 25px;
 }
 
-/* Some facts Styles */
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    Some facts Styles
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 .facts {
     margin-top: 50px;
     padding: 0px 100px;
@@ -271,6 +296,7 @@ header {
 }
 
 .facts-sub-title {
+    width: 30%;
     font-weight: 400;
     font-size: 16px;
     color: #727272;
@@ -296,7 +322,9 @@ header {
     align-items: center;
 }
 
-/* Fact Animation */
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+     Fact Animation
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
 .fact:hover {
     background-color: lightgreen;
@@ -325,7 +353,9 @@ header {
 }
 
 
-/* Sponsors Sections Styles */
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    Sponsors Sections Styles
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
 .sponsors {
     padding: 50px 100px 130px 100px;
@@ -341,7 +371,7 @@ header {
     color: #131313;
 }
 
-.sponsors-discription {
+.sponsors-description {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
@@ -355,7 +385,9 @@ header {
 }
 
 
-/* Footer Styles */
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    Footer Styles
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 footer {
     display: flex;
     justify-content: center;
@@ -380,67 +412,70 @@ footer {
 }
 
 
-
-
-
 /*::::::::::::::::::::::::::::::::::::::::::::::::
         Responsive Styles
 :::::::::::::::::::::::::::::::::::::::::::::::::*/
 
-/*------------------------------
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     Responsive for Mobile Device
-------------------------------*/
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
 @media only screen and (max-width: 688px) {
-
+main{
+    margin: 0px 30px;
+}
     /* Navigation Styles */
 
-header {
-    margin-bottom: 20px;
-}
+    header {
+        margin-bottom: 20px;
+    }
 
-.title {
-    font-size: 35px;
-    text-align: center;
-    padding-top: 30px;
-}
+    .title {
+        font-size: 35px;
+        text-align: center;
+        padding-top: 30px;
+    }
 
-.nav-bar,
+    .nav-bar,
     .menu-items>ul {
         flex-direction: column;
         gap: 0px;
         padding: 0px;
     }
 
-.menu-items {
-    padding: 0px;
-}
+    .menu-items {
+        padding: 0px;
+    }
 
-/* Banner Section Styles */
+    /* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    Banner Section Styles
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
-.banner-text {
-    padding: 0px;
-}
+    .banner-text {
+        padding: 0px;
+    }
 
-.banner-title {
-    font-size: 60px;
-    padding-top: 30px;
-}
+    .banner-title {
+        font-size: 60px;
+        padding-top: 30px;
+    }
 
-.banner-description {
-    font-size: 14px;
-    padding-bottom: 20px;
-}
+    .banner-description {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
 
 
 
-.banner-pic {
-    height: auto;
-    padding: 30px 0px;
-    border-radius: 20px;
-}
+    .banner-pic {
+        height: auto;
+        padding: 30px 0px;
+        border-radius: 20px;
+    }
 
-    /* Quick list of Our Features and image gallery */
+    /* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    Quick list of Our Features and image gallery
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
     .quick-feature {
         display: flex;
@@ -473,7 +508,9 @@ header {
         text-align: center;
     }
 
-    /* Features you will love & enjoy section Styles */
+    /* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    Features you will love & enjoy section Styles
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
     .features-love {
         width: 100%;
@@ -535,9 +572,11 @@ header {
         position: relative;
     }
 
-    /* 10+ Years Button Styles */
+    /* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        10+ Years Button Styles
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
-    .exprience-button {
+    .experience-button {
         width: 200px;
         height: 100px;
         position: absolute;
@@ -555,64 +594,72 @@ header {
         font-size: 25px;
     }
 
-/* Some Facts Section Styles */
+    /* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        Some Facts Section Styles
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
-.facts {
-    margin-top: 100px;
-    padding: 0px;
-}
+    .facts {
+        margin-top: 100px;
+        padding: 0px;
+    }
 
-.fact-text {
-    width: 0%;
-    text-align: center;
-}
+    .fact-text {
+        width: 0%;
+        text-align: center;
+    }
 
-.facts-title {
-    font-weight: 700;
-    font-size: 40px;
-    padding-bottom: 20px;
-    text-align: center;
-}
+    .facts-title {
+        font-weight: 700;
+        font-size: 40px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
 
-.facts-sub-title {
-    font-size: 14px;
-    text-align: center;
-}
+    .facts-sub-title {
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+    }
 
-.fact-items {
-    flex-direction: column;
-    gap: 70px;
-    padding-top: 30px;
-}
-
-
-.fact-number {
-    font-size: 40px;
-}
+    .fact-items {
+        flex-direction: column;
+        gap: 70px;
+        padding-top: 30px;
+    }
 
 
-/* Sponsors Sections Styles */
-
-.sponsors {
-    padding: 0px;
-}
-.sponsors-title {
-    font-size: 40px;
-}
-
-.sponsors-discription {
-    font-size: 14px;
-}
-
-.sponsors-logo {
-    gap: 20px;
-    flex-direction: column;
-}
+    .fact-number {
+        font-size: 40px;
+    }
 
 
-/* Footer Styles */
-footer {
-    justify-content: center;
-    margin: 50px 0px;
-}
+    /* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        Sponsors Sections Styles
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+    .sponsors {
+        padding: 0px;
+    }
+
+    .sponsors-title {
+        font-size: 40px;
+    }
+
+    .sponsors-description {
+        font-size: 14px;
+    }
+
+    .sponsors-logo {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+
+    /* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+    Footer Styles
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+    footer {
+        justify-content: center;
+        margin: 50px 0px;
+    }
 }
