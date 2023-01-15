@@ -161,7 +161,7 @@ header {
     padding: 0px 100px;
 }
 
-.features-love-text{
+.features-love-text {
     padding-bottom: 50px;
     padding-right: 0px;
 }
@@ -190,15 +190,15 @@ header {
     color: #727272;
     padding-top: 20px;
 }
-.blogs{
+
+.blogs {
     padding-bottom: 20px;
     padding-left: 20px;
 }
 
 .blog {
     background: #FFFFFF;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
-    border: 1px solid salmon;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 20px;
     margin-top: 20px;
@@ -223,9 +223,11 @@ header {
     padding-left: 0px;
     padding-bottom: 0px;
 }
-.features-love-pic{
+
+.features-love-pic {
     position: relative;
 }
+
 /* 10+ Years Button Styles */
 
 .exprience-button {
@@ -262,7 +264,7 @@ header {
 }
 
 .facts-title {
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 45px;
     color: #131313;
     padding-bottom: 25px;
@@ -296,8 +298,8 @@ header {
 
 /* Fact Animation */
 
-.fact:hover{
-    background-color: lightgreen ;
+.fact:hover {
+    background-color: lightgreen;
     transform: scale(1.5);
     transition: transform 1s linear, background-color 1s;
 }
@@ -352,9 +354,6 @@ header {
     align-items: center;
 }
 
-.sponsors-logo img {
-    -webkit-filter: grayscale(100%);
-}
 
 /* Footer Styles */
 footer {
@@ -393,41 +392,227 @@ footer {
 ------------------------------*/
 
 @media only screen and (max-width: 688px) {
-    * {
-        margin: 0px;
-    }
 
-    .nav-bar,
+    /* Navigation Styles */
+
+header {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.nav-bar,
     .menu-items>ul {
         flex-direction: column;
         gap: 0px;
-    }
-
-    .menu-items {
         padding: 0px;
     }
 
-    .banner-text {
-        padding: 0px;
-    }
+.menu-items {
+    padding: 0px;
+}
 
-    .banner-pic {
-        width: 100%;
-    }
+/* Banner Section Styles */
+
+.banner-text {
+    padding: 0px;
+}
+
+.banner-title {
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+.banner-description {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+
+
+.banner-pic {
+    height: auto;
+    padding: 30px 0px;
+    border-radius: 20px;
+}
+
+    /* Quick list of Our Features and image gallery */
 
     .quick-feature {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 30px;
         width: 100%;
         padding: 0px;
     }
 
-    .quick-feature-gallery,
-    .quick-feature-text {
-        width: calc(50% - 75px);
+    .quick-feature-gallery {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .quick-feature-gallery {
+        padding: 30px;
     }
 
     .team-pic {
         width: 100%;
-        height: 100px;
     }
 
+    .quick-feature-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Features you will love & enjoy section Styles */
+
+    .features-love {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .features-love-text {
+        padding-right: 0px;
+    }
+
+
+    .heading {
+        display: flex;
+    }
+
+    .vertical-line {
+        border-left: 5px solid #FF900E;
+        height: 106px;
+        position: relative;
+        padding-right: 20px;
+    }
+
+    .heading h1 {
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+    }
+
+    .sub-heading {
+        font-weight: 400;
+        font-size: 16px;
+        color: #727272;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .blogs {
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+
+    .blog-title {
+        text-align: center;
+    }
+
+    .blog-description {
+        text-align: justify;
+    }
+
+    #architect {
+        width: 100%;
+        height: auto;
+    }
+
+    .features-love-pic {
+        position: relative;
+    }
+
+    /* 10+ Years Button Styles */
+
+    .exprience-button {
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        bottom: -50px;
+        left: 25%;
+    }
+
+    .btn-year {
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .btn-exp {
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+/* Some Facts Section Styles */
+
+.facts {
+    margin-top: 100px;
+    padding: 0px;
+}
+
+.fact-text {
+    width: 0%;
+    text-align: center;
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.facts-sub-title {
+    font-size: 14px;
+    text-align: center;
+}
+
+.fact-items {
+    flex-direction: column;
+    gap: 70px;
+    padding-top: 30px;
+}
+
+
+.fact-number {
+    font-size: 40px;
+}
+
+
+/* Sponsors Sections Styles */
+
+.sponsors {
+    padding: 0px;
+}
+.sponsors-title {
+    font-size: 40px;
+}
+
+.sponsors-discription {
+    font-size: 14px;
+}
+
+.sponsors-logo {
+    gap: 20px;
+    flex-direction: column;
+}
+
+
+/* Footer Styles */
+footer {
+    justify-content: center;
+    margin: 50px 0px;
+}
 }
