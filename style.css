@@ -118,7 +118,7 @@ header {
     height: 300px;
 }
 
-.quick-feature-text{
+.quick-feature-text {
     text-align: left;
 }
 
@@ -147,7 +147,59 @@ header {
     padding: 25px 0px;
 }
 
+/* Features you will love & enjoy section Styles */
+.features-love{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 240px;
+}
+.heading {
+    display: flex;
+}
 
+.vertical-line {
+    border-left: 5px solid #FF900E;
+    height: 106px;
+    position: relative;
+    padding-right: 20px;
+}
+
+.heading h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sub-heading {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding:25px 0px;
+}
+
+.blog {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.6);
+    border: 1px solid salmon;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.blog-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    padding-bottom: 10px;
+}
+
+.blog-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::
         Responsive Styles
@@ -158,34 +210,41 @@ header {
 ------------------------------*/
 
 @media only screen and (max-width: 688px) {
-    *{
+    * {
         margin: 0px;
     }
-    .nav-bar, .menu-items>ul{
+
+    .nav-bar,
+    .menu-items>ul {
         flex-direction: column;
         gap: 0px;
     }
-    .menu-items{
+
+    .menu-items {
         padding: 0px;
     }
-    .banner-text{
+
+    .banner-text {
         padding: 0px;
     }
-    .banner-pic{
+
+    .banner-pic {
         width: 100%;
     }
-    
-    .quick-feature{
+
+    .quick-feature {
         width: 100%;
         padding: 0px;
     }
 
-    .quick-feature-gallery, .quick-feature-text{
+    .quick-feature-gallery,
+    .quick-feature-text {
         width: calc(50% - 75px);
     }
-    .team-pic{
+
+    .team-pic {
         width: 100%;
         height: 100px;
     }
-    
+
 }
