@@ -148,13 +148,14 @@ header {
 }
 
 /* Features you will love & enjoy section Styles */
-.features-love{
+.features-love {
     display: flex;
     gap: 50px;
     justify-content: center;
     align-items: center;
     padding: 130px 240px;
 }
+
 .heading {
     display: flex;
 }
@@ -176,7 +177,7 @@ header {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    padding:25px 0px;
+    padding: 25px 0px;
 }
 
 .blog {
@@ -195,11 +196,133 @@ header {
     padding-bottom: 10px;
 }
 
-.blog-description{
+.blog-description {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
 }
+
+
+/* Some facts Styles */
+.facts {
+    margin-top: 100px;
+    padding: 0px 100px;
+}
+
+.fact-text {
+    width: 0%;
+}
+
+.facts-title {
+    font-weight: 700px;
+    font-size: 45px;
+    color: #131313;
+    padding-bottom: 25px;
+}
+
+.facts-sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.fact-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 124px;
+    padding: 100px 50px;
+}
+
+.fact {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact-icon {
+    width: 45px;
+    height: 45px;
+}
+
+.fact-number {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    padding: 10px 0px;
+}
+
+.fact-name {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+
+/* Sponsors Sections Styles */
+
+.sponsors {
+    padding: 0px 100px 130px 100px;
+}
+
+.sponsors-text {
+    text-align: center;
+}
+
+.sponsors-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponsors-discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 25px 0px 50px 0px;
+}
+
+.sponsors-logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ .sponsors-logo img{
+    -webkit-filter: grayscale(100%);
+ }
+
+/* Footer Styles */
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.footer{
+    display: flex;
+    width: 80%;
+    height: 100px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
+
+
+
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::
         Responsive Styles
