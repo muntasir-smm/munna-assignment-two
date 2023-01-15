@@ -155,13 +155,16 @@ header {
     width: 1245px;
     height: 1060px;
     display: flex;
-    column-gap: 100px;
-    /* gap: 100px; */
+    column-gap: 120px;
     justify-content: center;
     align-items: center;
     padding: 0px 100px;
 }
 
+.features-love-text{
+    padding-bottom: 50px;
+    padding-right: 0px;
+}
 
 
 .heading {
@@ -185,16 +188,20 @@ header {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    padding: 25px 0px;
+    padding-top: 20px;
+}
+.blogs{
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 .blog {
     background: #FFFFFF;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
     border: 1px solid salmon;
     border-radius: 8px;
-    padding: 30px;
-    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .blog-title {
@@ -210,9 +217,18 @@ header {
     color: #727272;
 }
 
+#architect {
+    width: 550px;
+    height: 900px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+.features-love-pic{
+    position: relative;
+}
 /* 10+ Years Button Styles */
 
-.exprience-button{
+.exprience-button {
     width: 342px;
     height: 200px;
     background-color: #FF900E;
@@ -220,20 +236,24 @@ header {
     border: none;
     color: #FFFFFF;
     text-align: center;
+    position: relative;
+    bottom: 80px;
+    right: 75px;
 }
 
-.btn-year{
+.btn-year {
     font-weight: 700;
     font-size: 65px;
 }
-.btn-exp{
+
+.btn-exp {
     font-weight: 500;
     font-size: 25px;
 }
 
 /* Some facts Styles */
 .facts {
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 0px 100px;
 }
 
@@ -266,13 +286,23 @@ header {
 .fact {
     border: 1px solid #FF900E;
     border-radius: 8px;
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+/* Fact Animation */
+
+.fact:hover{
+    background-color: lightgreen ;
+    transform: scale(1.5);
+    transition: transform 1s linear, background-color 1s;
+}
+
+/* ______ */
 
 .fact-icon {
     width: 45px;
@@ -296,7 +326,7 @@ header {
 /* Sponsors Sections Styles */
 
 .sponsors {
-    padding: 0px 100px 130px 100px;
+    padding: 50px 100px 130px 100px;
 }
 
 .sponsors-text {
@@ -321,18 +351,19 @@ header {
     justify-content: space-evenly;
     align-items: center;
 }
- .sponsors-logo img{
+
+.sponsors-logo img {
     -webkit-filter: grayscale(100%);
- }
+}
 
 /* Footer Styles */
-footer{
+footer {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
 }
 
-.footer{
+.footer {
     display: flex;
     width: 80%;
     height: 100px;
@@ -342,7 +373,8 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.footer-text{
+
+.footer-text {
     font-weight: 400;
     font-size: 20px;
     color: #424242;
